@@ -1,0 +1,114 @@
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    display: block;
+    margin-top: -18px;
+    font-size: 24px;
+}
+
+.navbar-brand{
+    color: rgba(0,0,0,.55) !important;
+    font-size: 24px;
+}
+
+.hero{
+    background: url(/assets/img/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+.my-card{
+    box-shadow: 0px 100px 130px rgba(0,0,0,0.07), 0px 24.6453px 53.835px rgba(0,0,0,0.0157668);
+}
+
+.kaos-anak{
+    background: url(/assets/img/anak.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.kaos-dewasa{
+    background: url(/assets/img/dewasa.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.kaos-wanita{
+    background: url(/assets/img/wanita.png);
+    background-size: cover;
+    background-position: center;
+}
+.kaos-pria{
+    background: url(/assets/img/pria.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.category-title{
+    margin-top: 100px !important;
+}
+
+.produk {
+    background: #eeeeee;
+}
+
+.product-card {
+    background: #F9F9F9;
+    box-shadow:4px 6px 7px -5px rgba(0,0,0,.25);
+}
+
+.size-list {
+    background: #F9F9F9;
+    border: none !important;
+}
+
+.add-to-whistlist{
+    float: right !important;
+    margin-right: 10px !important;
+}
+
+.testi-card{
+    box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.25);
+}
+
+.slick-next, .slick-prev {
+    filter: invert(10%);
+}
+
+.footer {
+    background: #202020;
+}
+
+.copyright{
+    background: #2F2F2F;
+}
+
+.footer{
+    margin-top: -80px;
+}
+
+.subscribe-content{
+    background: white;
+    z-index: 999 !important;
+}
+
+.footer-content{
+    margin-top: 80px;
+}
+
+@media screen and (max-width:992px){
+    .navbar-brand {
+        display:block !important;
+    }
+
+    .brand{
+        display: none;
+    }
+}
